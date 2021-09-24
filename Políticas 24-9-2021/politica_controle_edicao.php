@@ -475,7 +475,7 @@ if ($acao == "get_anexos"){
 									url: 'politica_controle_acao.php',
 									success: function(data) {
 										
-										alert("Declaração gravada com sucesso!");
+										alert("Declara\u00e7\u00e3o gravada com sucesso!");
 										$(".aceitar-doc#"+id).closest("tr").find(".text-aceite").val('OK');
 										$(".aceitar-doc#"+id).removeClass("aceitar-doc");
 										
@@ -484,7 +484,7 @@ if ($acao == "get_anexos"){
 								});	
 					
 							}else{
-								alert("Por favor aceite que está de acordo com a política!");
+								alert("Por favor aceite que est\u00e1 de acordo com a pol\u00edtica!");
 							} 
 		
 						}

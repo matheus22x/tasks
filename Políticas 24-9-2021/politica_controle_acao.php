@@ -186,7 +186,7 @@ if ($acao == "xls"){
 			$sql_politica= "SELECT * FROM tb_cad_politica WHERE politica_ativo = 'S' ";
 			$result_filtro = $conn->sql($sql_politica);
 			while($tmp_filtro = mysqli_fetch_array($result_filtro)){
-				$politica_id=$tmp_filtro["politica_id"];			
+				$politica_id = 30;			
 			
 
 
